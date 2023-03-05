@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>Cadastro da Liga dos Astronautas</h3>
+    <p>Nome: <input type="text"></p>
+    <p>E-mail: 
+        <input type="email"> - 
+        Password: <input type="password">
+    </p>
+    <p>
+        Data de Nascimento: <input type="date"> - 
+        Foto: <input type="file">
+    </p>
+    <p>
+        Nacionalidade: <input list="nacionalidade">
+        <datalist id="nacionalidade">
+            <option value="Russo">Russo</option>
+            <option value="Brasileiro">Brasileiro</option>
+            <option value="Americano">Americano</option>
+            <option value="Argentino">Argentino</option>
+        </datalist> 
+        - Genero: <label for="feminino"> F </label> 
+        <input type="radio" id="feminino" name="genero" value="F">
+        <label for="masculino"> M </label> 
+        <input type="radio" id="masculino" name="genero" value="M">
+    </p>
+
+    <p>Suas principais qualidades: <br>
+        <label for="qualidade1">Inteligência:</label>
+        <input type="checkbox" id="qualidade1" name="qualidade1" value="inteligencia">
+        <label for="qualidade2">| Resiliência:</label>
+        <input type="checkbox" id="qualidade2" name="qualidade2" value="resiliencia">
+        <label for="qualidade3">| Preparo Físico:</label>
+        <input type="checkbox" id="qualidade3" name="qualidade3" value="prepfisico">
+        <label for="qualidade4">| Educação: </label>
+        <input type="checkbox" id="qualidade4" name="qualidade4" value="educacao"> |
+    </p>
+    <textarea name="area2" id="area2" rows="10" cols="30" placeholder="Porque você gostaria de ser um astronauta?"> </textarea>
+    
+<br>
+<br>
+        <input type="submit" value="Criar">
+
+
+
+    
+</body>
+</html>
